@@ -31,7 +31,7 @@
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
                     android:layout_gravity="center"
-                    android:src="@drawable/sample" />
+                    android:src="@drawable/ic_dreamcast_logo" />
 
                 <!-- Heart ImageView positioned at the top-right of the image -->
                 <ImageView

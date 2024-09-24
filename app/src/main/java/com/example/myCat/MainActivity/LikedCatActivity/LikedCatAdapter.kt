@@ -26,8 +26,8 @@ class LikedCatAdapter(val context: Context, val likedImages: List<CatBreed>) : R
 
         Glide.with(context)
             .load(likedImages.get(position).imgUrl)
-            .placeholder(R.drawable.sample)
-            .error(R.drawable.sample)
+            .placeholder(R.drawable.ic_dreamcast_logo)
+            .error(R.drawable.ic_dreamcast_logo)
             .into(holder.imgCircle)
 
         holder.likeBtn.visibility = View.GONE

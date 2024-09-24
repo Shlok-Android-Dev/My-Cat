@@ -45,8 +45,8 @@ class CatAdapter(val context: Context
 
         Glide.with(context)
             .load(randomUrl)
-            .placeholder(R.drawable.sample)
-            .error(R.drawable.sample)
+            .placeholder(R.drawable.ic_dreamcast_logo)
+            .error(R.drawable.ic_dreamcast_logo)
             .into(holder.Image)
 
         if (likedItems.contains(itemId)) {
