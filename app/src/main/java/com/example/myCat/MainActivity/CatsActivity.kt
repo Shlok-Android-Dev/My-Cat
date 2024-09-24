@@ -21,6 +21,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.myCat.MainActivity.LikedCatActivity.LikedCatActivity
 import com.example.myCat.R
 import com.google.gson.Gson
+import com.google.gson.JsonSyntaxException
 import com.google.gson.reflect.TypeToken
 import retrofit2.Call
 import retrofit2.Callback
@@ -185,7 +186,7 @@ class CatsActivity : AppCompatActivity() , CatAdapter.OnItemClickListener {
             try {
                 val type = object : TypeToken<MutableList<CatBreed>>() {}.type
                 Gson().fromJson<MutableList<CatBreed>>(json, type) ?: mutableListOf()
-            } catch (e: com.google.gson.JsonSyntaxException) {
+            } catch (e: JsonSyntaxException) {
                 Log.e(TAG, "Error parsing JSON", e)
                 mutableListOf()
             }
@@ -212,7 +213,7 @@ class CatsActivity : AppCompatActivity() , CatAdapter.OnItemClickListener {
     }
 
     fun isOnline(context: Context): Boolean {
-        val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val connectivityManager = context.getSystemService(CONNECTIVITY_SERVICE) as ConnectivityManager
         if (connectivityManager != null) {
             val capabilities = connectivityManager.getNetworkCapabilities(connectivityManager.activeNetwork)
             if (capabilities != null) {
