@@ -1,4 +1,4 @@
-package com.example.mykotlin.MainActivity
+package com.example.myCat.MainActivity
 
 import android.content.Context
 import android.content.Intent
@@ -18,8 +18,8 @@ import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mykotlin.MainActivity.LikedCatActivity.LikedCatActivity
-import com.example.mykotlin.R
+import com.example.myCat.MainActivity.LikedCatActivity.LikedCatActivity
+import com.example.myCat.R
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import retrofit2.Call

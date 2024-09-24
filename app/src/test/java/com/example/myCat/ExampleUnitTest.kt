@@ -1,4 +1,4 @@
-package com.example.mykotlin
+package com.example.myCat
 
 import org.junit.Test
 

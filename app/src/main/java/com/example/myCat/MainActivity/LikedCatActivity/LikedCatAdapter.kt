@@ -1,4 +1,4 @@
-package com.example.mykotlin.MainActivity.LikedCatActivity
+package com.example.myCat.MainActivity.LikedCatActivity
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.mykotlin.MainActivity.CatBreed
-import com.example.mykotlin.R
+import com.example.myCat.MainActivity.CatBreed
+import com.example.myCat.R
 import de.hdodenhof.circleimageview.CircleImageView
 
 class LikedCatAdapter(val context: Context, val likedImages: List<CatBreed>) : RecyclerView.Adapter<LikedCatAdapter.ViewHolder>()  {

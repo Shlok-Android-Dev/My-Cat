@@ -1,6 +1,5 @@
-package com.example.mykotlin.MainActivity
+package com.example.myCat.MainActivity
 
-import android.annotation.SuppressLint
 import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
@@ -12,7 +11,7 @@ import android.widget.TextView
 import androidx.core.content.edit
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.mykotlin.R
+import com.example.myCat.R
 import de.hdodenhof.circleimageview.CircleImageView
 
 class CatAdapter(val context: Context

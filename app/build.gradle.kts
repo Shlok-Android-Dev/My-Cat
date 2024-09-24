@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mykotlin"
+    namespace = "com.example.myCat"
     compileSdk = 34
 
     buildFeatures{
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.mykotlin"
+        applicationId = "com.example.myCat"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

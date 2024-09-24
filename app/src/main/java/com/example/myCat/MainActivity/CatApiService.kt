@@ -1,4 +1,4 @@
-package com.example.mykotlin.MainActivity
+package com.example.myCat.MainActivity
 
 import retrofit2.Call
 import retrofit2.http.GET

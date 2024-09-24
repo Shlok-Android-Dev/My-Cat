@@ -1,19 +1,13 @@
-package com.example.mykotlin.MainActivity.LikedCatActivity
+package com.example.myCat.MainActivity.LikedCatActivity
 
-import android.content.Context
-import android.content.SharedPreferences
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.example.mykotlin.MainActivity.CatAdapter
-import com.example.mykotlin.MainActivity.CatBreed
-import com.example.mykotlin.R
+import com.example.myCat.MainActivity.CatBreed
+import com.example.myCat.R
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
