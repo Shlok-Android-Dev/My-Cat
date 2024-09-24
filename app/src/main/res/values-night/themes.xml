@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyKotlin" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+         <item name="colorPrimary">@color/primary_Color_Dark</item>
+        <item name="colorOnPrimary">@color/primary_Color_Dark</item>
+    </style>
+</resources>
